@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">开普勒</string>
+
+    <string name="notifyTitle">1提示</string>
+    <string name="gpsNotifyMsg">1当前手机扫描蓝牙需要打开定位功能。</string>
+    <string name="setting">1前往设置</string>
+    <string name="cancel">1取消</string>
+
+    <string name="start_scan">开始扫描</string>
+    <string name="stop_scan">停止扫描</string>
+    <string name="expand_search_settings">展开搜索设置</string>
+    <string name="retrieve_search_settings">收起搜索设置</string>
+    <string name="connect_fail">1连接失败</string>
+    <string name="active_disconnected">1断开了</string>
+    <string name="disconnected">1连接断开</string>
+    <string name="please_open_blue">1请先打开蓝牙</string>
+    <string name="select_operation_type">1选择操作类型</string>
+    <string name="characteristic">1特性</string>
+    <string name="data_changed">1的数据变化：</string>
+    <string name="read">1读</string>
+    <string name="write">写入</string>
+    <string name="open_notification">1打开通知</string>
+    <string name="close_notification">1关闭通知</string>
+    <string name="service_list">设备操作</string>
+    <string name="characteristic_list">1特征列表</string>
+    <string name="console">1操作控制台</string>
+    <string name="name">1设备广播名：</string>
+    <string name="mac">1MAC:</string>
+    <string name="service">13服务</string>
+    <string name="type">1服务类型(主服务)</string>
+    <string name="scan_setting">1在下面你可以配置需要扫描的设备的条件，可以为空</string>
+    <string name="setting_name">1输入蓝牙设备广播名，多个之间以英文逗号隔开</string>
+    <string name="setting_mac">1输入蓝牙设备mac</string>
+    <string name="setting_uuid">1输入蓝牙设备UUID，多个之间以英文逗号隔开</string>
+    <string name="input_hex">请输入HEX格式指令</string>
+    <string name="connect">连接</string>
+    <string name="connected">已连接</string>
+    <string name="disconnect">断开连接</string>
+    <string name="enter">进入操作</string>
+
+</resources>

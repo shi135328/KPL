@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:rotation="0"
+    tools:ignore="MissingDefaultResource">
+    <!--<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </RelativeLayout>-->
+
+    <LinearLayout
+        android:id="@+id/layout_container"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:orientation="vertical" />
+
+    <Button
+        android:id="@+id/button0"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="-30px"
+        android:layout_marginTop="400px"
+        android:rotation="90"
+        android:text="控制"
+        android:textColor="@color/colorwhite"
+        android:textColorLink="#EF0808"
+        android:background="@drawable/btn_shape"/>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="-30px"
+        android:layout_marginTop="800px"
+        android:rotation="90"
+        android:text="按钮"
+        android:textColor="@color/colorwhite"
+        android:textColorLink="#EF0808"
+        android:background="@drawable/btn_shape"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="-30px"
+        android:layout_marginTop="1200px"
+        android:rotation="90"
+        android:text="电磁阀"
+        android:textColor="@color/colorwhite"
+        android:textColorLink="#EF0808"
+        android:background="@drawable/btn_shape"/>
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="-30px"
+        android:layout_marginTop="1600px"
+        android:rotation="90"
+        android:text="其他"
+        android:textColor="@color/colorwhite"
+        android:textColorLink="#EF0808"
+        android:background="@drawable/btn_shape"/>
+
+    <TextView
+        android:id="@+id/textView0"
+        android:layout_width="800px"
+        android:layout_height="1500px"
+        android:layout_marginLeft="-120px"
+        android:layout_marginTop="400px"
+        android:rotation="90"
+        android:text="机械无级变速玉米机"
+        android:textColor="@color/colorblack"
+        android:textColorLink="#AECBE8"
+        android:textSize="80px" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="500px"
+        android:layout_height="100px"
+        android:layout_marginLeft="580px"
+        android:layout_marginTop="500px"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:rotation="90"
+        android:text="割台上升按钮"
+        android:textColor="@color/colorblack"
+        android:textSize="50px" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="500px"
+        android:layout_height="100px"
+        android:layout_marginLeft="483px"
+        android:layout_marginTop="500px"
+        android:background="@drawable/shape"
+        android:rotation="90"
+        android:text="割台下降按钮"
+        android:gravity="center"
+        android:textColor="@color/colorblack"
+        android:textSize="50px" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="500px"
+        android:layout_height="100px"
+        android:layout_marginLeft="386px"
+        android:layout_marginTop="500px"
+        android:background="@drawable/shape"
+        android:rotation="90"
+        android:text="还田机上升按钮"
+        android:gravity="center"
+        android:textColor="@color/colorblack"
+        android:textSize="50px" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="500px"
+        android:layout_height="100px"
+        android:layout_marginLeft="289px"
+        android:layout_marginTop="500px"
+        android:background="@drawable/shape"
+        android:rotation="90"
+        android:text="还田机下降按钮"
+        android:gravity="center"
+        android:textColor="@color/colorblack"
+        android:textSize="50px" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="500px"
+        android:layout_height="100px"
+        android:layout_marginLeft="192px"
+        android:layout_marginTop="500px"
+        android:background="@drawable/shape"
+        android:rotation="90"
+        android:text="无级变速加速按钮"
+        android:gravity="center"
+        android:textColor="@color/colorblack"
+        android:textSize="50px" />
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="500px"
+        android:layout_height="100px"
+        android:layout_marginLeft="95px"
+        android:layout_marginTop="500px"
+        android:background="@drawable/shape"
+        android:rotation="90"
+        android:text="无级变速减速按钮"
+        android:gravity="center"
+        android:textColor="@color/colorblack"
+        android:textSize="50px" />
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="200px"
+        android:layout_height="100px"
+        android:layout_marginLeft="730px"
+        android:layout_marginTop="847px"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:rotation="90"
+        android:text="0"
+        android:textColor="@color/colorblack"
+        android:textSize="50px" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="200px"
+        android:layout_height="100px"
+        android:layout_marginLeft="633px"
+        android:layout_marginTop="847px"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:rotation="90"
+        android:text="0"
+        android:textColor="@color/colorblack"
+        android:textSize="50px" />
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="200px"
+        android:layout_height="100px"
+        android:layout_marginLeft="536px"
+        android:layout_marginTop="847px"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:rotation="90"
+        android:text="0"
+        android:textColor="@color/colorblack"
+        android:textSize="50px" />
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="200px"
+        android:layout_height="100px"
+        android:layout_marginLeft="439px"
+        android:layout_marginTop="847px"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:rotation="90"
+        android:text="0"
+        android:textColor="@color/colorblack"
+        android:textSize="50px" />
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="200px"
+        android:layout_height="100px"
+        android:layout_marginLeft="342px"
+        android:layout_marginTop="847px"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:rotation="90"
+        android:text="0"
+        android:textColor="@color/colorblack"
+        android:textSize="50px" />
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="200px"
+        android:layout_height="100px"
+        android:layout_marginLeft="245px"
+        android:layout_marginTop="847px"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:rotation="90"
+        android:text="0"
+        android:textColor="@color/colorblack"
+        android:textSize="50px" />
+
+
+
+
+
+
+
+       <TextView
+        android:id="@+id/textView13"
+        android:layout_width="500px"
+        android:layout_height="100px"
+        android:layout_marginLeft="580px"
+        android:layout_marginTop="1300px"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:rotation="90"
+        android:text="粮仓上升按钮"
+        android:textColor="@color/colorblack"
+        android:textSize="50px" />
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="500px"
+        android:layout_height="100px"
+        android:layout_marginLeft="483px"
+        android:layout_marginTop="1300px"
+        android:background="@drawable/shape"
+        android:rotation="90"
+        android:text="粮仓下降按钮"
+        android:gravity="center"
+        android:textColor="@color/colorblack"
+        android:textSize="50px" />
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="500px"
+        android:layout_height="100px"
+        android:layout_marginLeft="386px"
+        android:layout_marginTop="1300px"
+        android:background="@drawable/shape"
+        android:rotation="90"
+        android:text="行走离合按钮"
+        android:gravity="center"
+        android:textColor="@color/colorblack"
+        android:textSize="50px" />
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="500px"
+        android:layout_height="100px"
+        android:layout_marginLeft="289px"
+        android:layout_marginTop="1300px"
+        android:background="@drawable/shape"
+        android:rotation="90"
+        android:text="行走运行状态"
+        android:gravity="center"
+        android:textColor="@color/colorblack"
+        android:textSize="50px" />
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="500px"
+        android:layout_height="100px"
+        android:layout_marginLeft="192px"
+        android:layout_marginTop="1300px"
+        android:background="@drawable/shape"
+        android:rotation="90"
+        android:text="发动机运行状态"
+        android:gravity="center"
+        android:textColor="@color/colorblack"
+        android:textSize="50px" />
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="500px"
+        android:layout_height="100px"
+        android:layout_marginLeft="95px"
+        android:layout_marginTop="1300px"
+        android:background="@drawable/shape"
+        android:rotation="90"
+        android:text="车辆行驶速度(km/h)"
+        android:gravity="center"
+        android:textColor="@color/colorblack"
+        android:textSize="50px" />
+
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="200px"
+        android:layout_height="100px"
+        android:layout_marginLeft="730px"
+        android:layout_marginTop="1647px"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:rotation="90"
+        android:text="0"
+        android:textColor="@color/colorblack"
+        android:textSize="50px" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="200px"
+        android:layout_height="100px"
+        android:layout_marginLeft="633px"
+        android:layout_marginTop="1647px"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:rotation="90"
+        android:text="0"
+        android:textColor="@color/colorblack"
+        android:textSize="50px" />
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="200px"
+        android:layout_height="100px"
+        android:layout_marginLeft="536px"
+        android:layout_marginTop="1647px"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:rotation="90"
+        android:text="0"
+        android:textColor="@color/colorblack"
+        android:textSize="50px" />
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="200px"
+        android:layout_height="100px"
+        android:layout_marginLeft="439px"
+        android:layout_marginTop="1647px"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:rotation="90"
+        android:text="0"
+        android:textColor="@color/colorblack"
+        android:textSize="50px" />
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="200px"
+        android:layout_height="100px"
+        android:layout_marginLeft="342px"
+        android:layout_marginTop="1647px"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:rotation="90"
+        android:text="0"
+        android:textColor="@color/colorblack"
+        android:textSize="50px" />
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="200px"
+        android:layout_height="100px"
+        android:layout_marginLeft="245px"
+        android:layout_marginTop="1647px"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:rotation="90"
+        android:text="0.0"
+        android:textColor="@color/colorblack"
+        android:textSize="50px" />
+
+</RelativeLayout>
+
+

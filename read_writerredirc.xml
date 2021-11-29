@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:rotation="0"
+    tools:ignore="MissingDefaultResource">
+    <!--<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </RelativeLayout>-->
+
+    <LinearLayout
+        android:id="@+id/layout_container"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:layout_x="-12dp"
+        android:layout_y="80dp"
+        android:background="@drawable/btn_shape"
+        android:rotation="90"
+        android:text="控制"
+        android:textColor="@color/colorwhite"
+        android:textColorLink="#EF0808" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:layout_x="-14dp"
+        android:layout_y="243dp"
+        android:background="@drawable/btn_shape"
+        android:rotation="90"
+        android:text="按钮"
+        android:textColor="@color/colorwhite" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:layout_x="-14dp"
+        android:layout_y="401dp"
+        android:background="@drawable/btn_shape"
+        android:rotation="90"
+        android:text="电磁阀"
+        android:textColor="@color/colorwhite" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:layout_x="-13dp"
+        android:layout_y="570dp"
+        android:background="@drawable/btn_shape"
+        android:rotation="90"
+        android:text="其他"
+        android:textColor="@color/colorwhite" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="429dp"
+        android:layout_height="89dp"
+        android:layout_x="101dp"
+        android:layout_y="402dp"
+        android:rotation="90"
+        android:text="机械无级变速玉米机"
+        android:textSize="80px" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="109dp"
+        android:layout_x="217dp"
+        android:layout_y="146dp"
+        android:rotation="90"
+        android:text="启动" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="107dp"
+        android:layout_x="113dp"
+        android:layout_y="146dp"
+        android:rotation="90"
+        android:text="熄火" />
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_x="240dp"
+        android:layout_y="260dp"
+        android:rotation="90"
+        android:text="加速" />
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_x="90dp"
+        android:layout_y="260dp"
+        android:rotation="90"
+        android:text="减速" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="78dp"
+        android:layout_height="73dp"
+        android:layout_x="240dp"
+        android:layout_y="420dp"
+        android:rotation="90"
+        android:text="升" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="78dp"
+        android:layout_height="72dp"
+        android:layout_x="240dp"
+        android:layout_y="500dp"
+        android:rotation="90"
+        android:text="升" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_x="90dp"
+        android:layout_y="500dp"
+        android:rotation="90"
+        android:text="降" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_x="90dp"
+        android:layout_y="420dp"
+        android:rotation="90"
+        android:text="降" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_x="240dp"
+        android:layout_y="340dp"
+        android:rotation="90"
+        android:text="升" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_x="90dp"
+        android:layout_y="340dp"
+        android:rotation="90"
+        android:text="降" />
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_x="180dp"
+        android:layout_y="451dp"
+        android:rotation="90"
+        android:text="割台区" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_x="180dp"
+        android:layout_y="534dp"
+        android:rotation="90"
+        android:text="还田区" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_x="180dp"
+        android:layout_y="383dp"
+        android:rotation="90"
+        android:text="粮仓" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_x="180dp"
+        android:layout_y="303dp"
+        android:rotation="90"
+        android:text="CVT" />
+
+
+</AbsoluteLayout>
