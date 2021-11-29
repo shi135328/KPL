@@ -117,7 +117,7 @@ public class ControlActivity extends AppCompatActivity implements Observer {
         toolbar.setTitle(getString(R.string.service_list));
         updateFragment(page);
         if (page == 1) {
-            Log.e("跳转","1");
+            Log.e("s 跳转","1");
             ((ControlFragment) fragments.get(0)).showData();
         } else if (page == 2) {
             Log.e("跳转","2");
